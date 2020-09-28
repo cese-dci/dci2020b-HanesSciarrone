@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name RF_NFC_PN532)(type KiCad)(uri /media/hanes/Hanes/KiCad/Footprint/RF_NFC_PN532.pretty)(options "")(descr ""))
+  (lib (name Antena)(type KiCad)(uri /media/hanes/Hanes/KiCad/Footprint/Antena.pretty)(options "")(descr ""))
+)

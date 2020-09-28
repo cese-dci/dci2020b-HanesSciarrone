@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name RF_NFC)(type Legacy)(uri /media/hanes/Hanes/KiCad/Symbols/RF_NFC_PN532/RF_NFC.lib)(options "")(descr ""))
+  (lib (name 2N7002DM)(type Legacy)(uri /media/hanes/Hanes/KiCad/Symbols/2N7002DM/2N7002DM.lib)(options "")(descr ""))
+)
