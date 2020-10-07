@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /media/hanes/Hanes/KiCad/ModuleNFC/ModuleNFC.sch)
-    (date "lun 28 sep 2020 21:56:19 -03")
+    (date "mar 06 oct 2020 23:50:04 -03")
     (tool "Eeschema 5.1.7-a382d34a8~87~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
