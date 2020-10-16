@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "ModuloNFC"
+Title "Módulo NFC"
 Date "2020-09-25"
 Rev "v1"
 Comp "Hanes Nahuel Sciarrone"
-Comment1 ""
+Comment1 "Licencia BSD"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -42,7 +42,9 @@ P 4225 4350
 F 0 "Y1" H 4275 4200 50  0000 R CNN
 F 1 "27.12MHz" H 4425 4500 50  0000 R CNN
 F 2 "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm" H 4225 4350 50  0001 C CNN
-F 3 "~" H 4225 4350 50  0001 C CNN
+F 3 "https://ecsxtal.com/store/pdf/ecx-64a_ecx-64cr.pdf" H 4225 4350 50  0001 C CNN
+F 4 "XC1671TR-ND" H 4225 4350 50  0001 C CNN "Part Number"
+F 5 "Digi-key" H 4225 4350 50  0001 C CNN "Supplier"
 	1    4225 4350
 	1    0    0    -1  
 $EndComp
@@ -54,6 +56,8 @@ F 0 "U1" H 6750 4700 50  0000 C CNN
 F 1 "PN5321A3HN_C1xx" H 6750 4600 50  0000 C CNN
 F 2 "RF_NFC_PN532:HVQFN-40-1EP_6x6mm_P0.5mm_EP4.1x4.1mm" H 7175 2275 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/nxp/data-sheets/PN532_C1.pdf" H 5675 3725 50  0001 C CNN
+F 4 "Digi-key" H 5675 3525 50  0001 C CNN "Supplier"
+F 5 "568-13228-ND" H 5675 3525 50  0001 C CNN "Part Number"
 	1    5675 3525
 	1    0    0    -1  
 $EndComp
@@ -381,7 +385,7 @@ L Device:LED D1
 U 1 1 5F79A236
 P 9950 1450
 F 0 "D1" H 9943 1195 50  0000 C CNN
-F 1 "BLUE" H 9943 1286 50  0000 C CNN
+F 1 "Led blue" H 9943 1286 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 9950 1450 50  0001 C CNN
 F 3 "~" H 9950 1450 50  0001 C CNN
 	1    9950 1450
@@ -438,8 +442,10 @@ U 1 1 5F6D6D4E
 P 5400 5650
 F 0 "SW1" H 5400 6017 50  0000 C CNN
 F 1 "SW_DIP_x02" H 5400 5926 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W8.61mm_P2.54mm_LowProfile" H 5400 5650 50  0001 C CNN
-F 3 "~" H 5400 5650 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_KingTek_DSHP02TS_W7.62mm_P1.27mm" H 5400 5650 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/218.pdf" H 5400 5650 50  0001 C CNN
+F 4 "Digi-key" H 5400 5650 50  0001 C CNN "Supplier"
+F 5 "CT3108CT-ND" H 5400 5650 50  0001 C CNN "Part Number"
 	1    5400 5650
 	1    0    0    -1  
 $EndComp
@@ -654,22 +660,6 @@ Wire Wire Line
 	9075 5325 9075 5425
 Wire Wire Line
 	9075 5425 8900 5425
-Text Label 7700 4475 0    50   ~ 0
-TX1
-Text Label 6600 2625 0    50   ~ 0
-TX1
-Text Label 6600 2725 0    50   ~ 0
-TX2
-Text Label 7700 5425 0    50   ~ 0
-TX2
-Wire Wire Line
-	7925 4475 7700 4475
-Wire Wire Line
-	7900 5425 7700 5425
-Wire Wire Line
-	6600 2625 6475 2625
-Wire Wire Line
-	6600 2725 6475 2725
 $Comp
 L Connector:Conn_01x10_Male J1
 U 1 1 5F7C13F8
@@ -770,7 +760,9 @@ P 10125 4750
 F 0 "J4" H 10225 4725 50  0000 L CNN
 F 1 "Conn_Coaxial" H 10225 4634 50  0000 L CNN
 F 2 "Antena:U.FL_Molex_MCRF_73412-0110_Vertical" H 10125 4750 50  0001 C CNN
-F 3 " ~" H 10125 4750 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/276/1/0734120110_RF_COAX_CONNECTORS-173239.pdf" H 10125 4750 50  0001 C CNN
+F 4 "538-73412-0110 " H 10125 4750 50  0001 C CNN "Part Number"
+F 5 "MOUSER" H 10125 4750 50  0001 C CNN "Supplier"
 	1    10125 4750
 	1    0    0    -1  
 $EndComp
@@ -794,7 +786,7 @@ P 1950 6725
 F 0 "Q1" V 2133 6727 50  0000 C CNN
 F 1 "2N7002DM" V 2224 6727 50  0000 C CNN
 F 2 "Package_SO:SC-74-6_1.5x2.9mm_P0.95mm" H 1950 6725 50  0001 C CNN
-F 3 "" H 1950 6725 50  0001 C CNN
+F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/508035/LRC/L2N7002DMT1G.html" H 1950 6725 50  0001 C CNN
 	2    1950 6725
 	0    1    1    0   
 $EndComp
@@ -805,7 +797,7 @@ P 1950 5700
 F 0 "Q1" V 2133 5705 50  0000 C CNN
 F 1 "2N7002DM" V 2224 5705 50  0000 C CNN
 F 2 "Package_SO:SC-74-6_1.5x2.9mm_P0.95mm" H 1950 5700 50  0001 C CNN
-F 3 "" H 1950 5700 50  0001 C CNN
+F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/508035/LRC/L2N7002DMT1G.html" H 1950 5700 50  0001 C CNN
 	1    1950 5700
 	0    1    1    0   
 $EndComp
@@ -1264,4 +1256,38 @@ Wire Wire Line
 	2600 1675 2725 1675
 Wire Wire Line
 	2300 1675 1525 1675
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F8296EC
+P 4350 7125
+F 0 "H1" H 4450 7171 50  0000 L CNN
+F 1 "MountingHole" H 4450 7080 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 4350 7125 50  0001 C CNN
+F 3 "~" H 4350 7125 50  0001 C CNN
+	1    4350 7125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F829A1D
+P 5375 7125
+F 0 "H2" H 5475 7171 50  0000 L CNN
+F 1 "MountingHole" H 5475 7080 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5375 7125 50  0001 C CNN
+F 3 "~" H 5375 7125 50  0001 C CNN
+	1    5375 7125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 2625 7225 2625
+Wire Wire Line
+	7225 2625 7225 4475
+Wire Wire Line
+	7225 4475 7925 4475
+Wire Wire Line
+	6475 2725 7025 2725
+Wire Wire Line
+	7025 2725 7025 5425
+Wire Wire Line
+	7025 5425 7900 5425
 $EndSCHEMATC
