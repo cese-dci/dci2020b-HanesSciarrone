@@ -1455,7 +1455,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /media/hanes/Hanes/KiCad/Model_3D/U.FL_Molex_MCRF_73412-0110_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3D/U.FL_Molex_MCRF_73412-0110_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1686,7 +1686,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /media/hanes/Hanes/KiCad/Model_3D/PN5321A3HN_C106,55.stp
+    (model ${KIPRJMOD}/Modelos3D/PN5321A3HN_C106,55.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1734,6 +1734,11 @@
     (pad 1 smd roundrect (at -1.1375 -0.95 90) (size 1.425 0.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 +3V3))
     (model /home/hanes/Descargas/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/Modelos3D/SOT-23-6.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source /media/hanes/Hanes/KiCad/ModuleNFC/ModuleNFC.sch)
-    (date "sáb 17 oct 2020 00:55:12 -03")
+    (date "vie 23 oct 2020 20:37:04 -03")
     (tool "Eeschema 5.1.7-a382d34a8~87~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Módulo NFC")
         (company "Hanes Nahuel Sciarrone")
-        (rev v1)
-        (date 2020-09-25)
+        (rev v2)
+        (date 2020-10-17)
         (source ModuleNFC.sch)
         (comment (number 1) (value "Licencia BSD"))
         (comment (number 2) (value ""))
