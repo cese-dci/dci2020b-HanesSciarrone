@@ -6,11 +6,11 @@ encoding utf-8
 Sheet 1 1
 Title "Módulo NFC"
 Date "2020-10-17"
-Rev "v2"
-Comp "Hanes Nahuel Sciarrone"
+Rev "v3"
+Comp "Autor: Hanes Nahuel Sciarrone"
 Comment1 "Licencia BSD"
-Comment2 ""
-Comment3 ""
+Comment2 "Revisor: Fede Pacher"
+Comment3 "Profesor: Diego Brengi"
 Comment4 ""
 $EndDescr
 $Comp
@@ -1031,8 +1031,6 @@ Wire Wire Line
 	8275 2825 8400 2825
 Wire Wire Line
 	8400 2825 8400 3000
-Wire Wire Line
-	8400 3300 8400 4475
 $Comp
 L Connector:Conn_01x08_Male J3
 U 1 1 5F9053DE
@@ -1104,38 +1102,6 @@ F 3 "~" H 2450 1675 50  0001 C CNN
 $EndComp
 Text Label 1525 1675 2    50   ~ 0
 NSS_SCL_RX
-$Comp
-L power:+3.3V #PWR0123
-U 1 1 5F96EB91
-P 9725 2700
-F 0 "#PWR0123" H 9725 2550 50  0001 C CNN
-F 1 "+3.3V" H 9600 2850 50  0000 L CNN
-F 2 "" H 9725 2700 50  0001 C CNN
-F 3 "" H 9725 2700 50  0001 C CNN
-	1    9725 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 5F9788B8
-P 9725 3150
-F 0 "#PWR0124" H 9725 2900 50  0001 C CNN
-F 1 "GND" H 9730 2977 50  0000 C CNN
-F 2 "" H 9725 3150 50  0001 C CNN
-F 3 "" H 9725 3150 50  0001 C CNN
-	1    9725 3150
-	1    0    0    -1  
-$EndComp
-Text Label 1525 1575 2    50   ~ 0
-Vcc
-Text Label 9725 3000 2    50   ~ 0
-Masa
-Wire Wire Line
-	9725 3000 9725 3150
-Wire Wire Line
-	9725 2700 9725 2850
-Text Label 1525 1475 2    50   ~ 0
-Masa
 Text Label 1525 1375 2    50   ~ 0
 IRQ
 $Comp
@@ -1210,16 +1176,6 @@ $EndComp
 Wire Wire Line
 	6075 4975 5875 4975
 Connection ~ 5875 4975
-Text Label 2700 6350 2    50   ~ 0
-Masa
-Wire Wire Line
-	2825 6350 2700 6350
-Text Label 9725 2850 2    50   ~ 0
-Vcc
-Text Label 2700 6250 2    50   ~ 0
-Vcc
-Wire Wire Line
-	2825 6250 2700 6250
 Wire Notes Line width 20
 	875  1050 875  2225
 Wire Notes Line width 20
@@ -1248,10 +1204,6 @@ Wire Wire Line
 	2725 1775 2175 1775
 Wire Wire Line
 	1875 1775 1525 1775
-Wire Wire Line
-	2725 1475 1525 1475
-Wire Wire Line
-	2725 1575 1525 1575
 Wire Wire Line
 	2600 1675 2725 1675
 Wire Wire Line
@@ -1323,4 +1275,68 @@ F 3 "~" H 5900 6925 50  0001 C CNN
 	1    5900 6925
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FA34B1B
+P 1125 1350
+F 0 "#PWR0105" H 1125 1100 50  0001 C CNN
+F 1 "GND" H 1130 1177 50  0000 C CNN
+F 2 "" H 1125 1350 50  0001 C CNN
+F 3 "" H 1125 1350 50  0001 C CNN
+	1    1125 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 5FA4B5F2
+P 1025 1300
+F 0 "#PWR0120" H 1025 1150 50  0001 C CNN
+F 1 "+3.3V" H 1040 1473 50  0000 C CNN
+F 2 "" H 1025 1300 50  0001 C CNN
+F 3 "" H 1025 1300 50  0001 C CNN
+	1    1025 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 1575 1025 1300
+Wire Wire Line
+	1025 1575 2725 1575
+Wire Wire Line
+	2725 1475 1225 1475
+Wire Wire Line
+	1225 1475 1225 1350
+Wire Wire Line
+	1225 1350 1125 1350
+$Comp
+L power:GND #PWR0121
+U 1 1 5FA7BA57
+P 2375 6375
+F 0 "#PWR0121" H 2375 6125 50  0001 C CNN
+F 1 "GND" H 2380 6202 50  0000 C CNN
+F 2 "" H 2375 6375 50  0001 C CNN
+F 3 "" H 2375 6375 50  0001 C CNN
+	1    2375 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0123
+U 1 1 5FA7C277
+P 2375 6225
+F 0 "#PWR0123" H 2375 6075 50  0001 C CNN
+F 1 "+3.3V" H 2390 6398 50  0000 C CNN
+F 2 "" H 2375 6225 50  0001 C CNN
+F 3 "" H 2375 6225 50  0001 C CNN
+	1    2375 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 6350 2375 6350
+Wire Wire Line
+	2375 6350 2375 6375
+Wire Wire Line
+	2825 6250 2375 6250
+Wire Wire Line
+	2375 6250 2375 6225
+Wire Wire Line
+	8400 3300 8400 4475
 $EndSCHEMATC
