@@ -8,7 +8,7 @@ Title "Módulo NFC"
 Date "2020-10-17"
 Rev "v3"
 Comp "Autor: Hanes Nahuel Sciarrone"
-Comment1 "Licencia BSD"
+Comment1 "Licencia CERN Open Hardware License Version 2 Permissive"
 Comment2 "Revisor: Fede Pacher"
 Comment3 "Profesor: Diego Brengi"
 Comment4 ""
@@ -1031,8 +1031,6 @@ Wire Wire Line
 	8275 2825 8400 2825
 Wire Wire Line
 	8400 2825 8400 3000
-Wire Wire Line
-	8400 3300 8400 4475
 $Comp
 L Connector:Conn_01x08_Male J3
 U 1 1 5F9053DE
@@ -1339,4 +1337,17 @@ Wire Wire Line
 	2825 6250 2375 6250
 Wire Wire Line
 	2375 6250 2375 6225
+Wire Wire Line
+	8400 3300 8400 4475
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5FAFC0F2
+P 6575 6025
+F 0 "LOGO1" H 6575 6300 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 6575 5800 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 6575 6025 50  0001 C CNN
+F 3 "~" H 6575 6025 50  0001 C CNN
+	1    6575 6025
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
