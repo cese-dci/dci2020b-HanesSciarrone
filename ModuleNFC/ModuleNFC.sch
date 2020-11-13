@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Módulo NFC"
-Date "2020-10-17"
+Date "2020-11-13"
 Rev "v3"
 Comp "Autor: Hanes Nahuel Sciarrone"
-Comment1 "Licencia CERN Open Hardware License Version 2 Permissive"
+Comment1 "Licencia: CERN Open Hardware License Version 2 Permissive"
 Comment2 "Revisor: Fede Pacher"
 Comment3 "Profesor: Diego Brengi"
 Comment4 ""

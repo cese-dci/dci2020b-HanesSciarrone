@@ -8,7 +8,7 @@ Title "Módulo NFC"
 Date "2020-10-17"
 Rev "v3"
 Comp "Autor: Hanes Nahuel Sciarrone"
-Comment1 "Licencia CERN Open Hardware License Version 2 Permissive"
+Comment1 "Licencia: CERN Open Hardware License Version 2 Permissive"
 Comment2 "Revisor: Fede Pacher"
 Comment3 "Profesor: Diego Brengi"
 Comment4 ""
@@ -1342,12 +1342,12 @@ Wire Wire Line
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5FAFC0F2
-P 6575 6025
-F 0 "LOGO1" H 6575 6300 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 6575 5800 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 6575 6025 50  0001 C CNN
-F 3 "~" H 6575 6025 50  0001 C CNN
-	1    6575 6025
+P 10625 3025
+F 0 "LOGO1" H 10625 3300 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10625 2800 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 10625 3025 50  0001 C CNN
+F 3 "~" H 10625 3025 50  0001 C CNN
+	1    10625 3025
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

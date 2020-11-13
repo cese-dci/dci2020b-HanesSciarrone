@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11)
+    (drawings 10)
     (tracks 383)
     (zones 0)
     (modules 47)
@@ -13,11 +13,11 @@
   (title_block
     (title "Módulo NFC")
     (date 2020-10-17)
-    (rev V2)
+    (rev V3)
     (company "Autor: Hanes Nahuel Sciarrone")
-    (comment 1 "Licencia CERN Open Hardware License Version 2 Permissive")
+    (comment 1 "Licencia: CERN Open Hardware License Version 2 Permissive")
     (comment 2 "Revisor: Fede Pacher")
-    (comment 3 "Profesor: DIego Brengi")
+    (comment 3 "Profesor: Diego Brengi")
   )
 
   (layers
@@ -184,12 +184,6 @@
     (add_net "Net-(L2-Pad2)")
     (add_net "Net-(R1-Pad1)")
     (add_net "Net-(R2-Pad1)")
-    (add_net "Net-(U1-Pad19)")
-    (add_net "Net-(U1-Pad2)")
-    (add_net "Net-(U1-Pad20)")
-    (add_net "Net-(U1-Pad21)")
-    (add_net "Net-(U1-Pad22)")
-    (add_net "Net-(U1-Pad37)")
   )
 
   (module Symbol:KiCad-Logo2_5mm_Copper (layer B.Cu) (tedit 0) (tstamp 5FAE9894)
@@ -2924,7 +2918,6 @@
   (gr_text "Module NFC\n" (at 165.1 87.8) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_line (start 174.5 121.3) (end 174.5 121.25) (layer Edge.Cuts) (width 0.05) (tstamp 5F8B2A28))
   (gr_text "IND. ARG" (at 159 119) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
@@ -3319,7 +3312,7 @@
   (segment (start 156.95 104.95) (end 155.1375 104.95) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 158 101.1) (end 157.4 101.7) (width 0.25) (layer F.Cu) (net 37))
 
-  (zone (net 4) (net_name +3V3) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 4) (net_name +3V3) (layer F.Cu) (tstamp 5FAEA752) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4087,7 +4080,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FAEA74F) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

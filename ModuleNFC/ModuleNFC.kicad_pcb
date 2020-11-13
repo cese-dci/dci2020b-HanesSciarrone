@@ -12,12 +12,12 @@
   (page A4)
   (title_block
     (title "Módulo NFC")
-    (date 2020-10-17)
-    (rev V2)
+    (date 2020-11-13)
+    (rev V3)
     (company "Autor: Hanes Nahuel Sciarrone")
-    (comment 1 "Licencia CERN Open Hardware License Version 2 Permissive")
+    (comment 1 "Licencia: CERN Open Hardware License Version 2 Permissive")
     (comment 2 "Revisor: Fede Pacher")
-    (comment 3 "Profesor: DIego Brengi")
+    (comment 3 "Profesor: Diego Brengi")
   )
 
   (layers
@@ -3312,7 +3312,7 @@
   (segment (start 156.95 104.95) (end 155.1375 104.95) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 158 101.1) (end 157.4 101.7) (width 0.25) (layer F.Cu) (net 37))
 
-  (zone (net 4) (net_name +3V3) (layer F.Cu) (tstamp 5FAEA739) (hatch edge 0.508)
+  (zone (net 4) (net_name +3V3) (layer F.Cu) (tstamp 5FAEA752) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4080,7 +4080,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FAEA736) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FAEA74F) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
