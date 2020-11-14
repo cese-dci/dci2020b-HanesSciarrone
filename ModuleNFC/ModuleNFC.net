@@ -1,16 +1,16 @@
 (export (version D)
   (design
     (source /media/hanes/Hanes/KiCad/ModuleNFC/ModuleNFC.sch)
-    (date "vie 13 nov 2020 02:13:18 -03")
+    (date "sáb 14 nov 2020 16:37:45 -03")
     (tool "Eeschema 5.1.8-db9833491~87~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Módulo NFC")
         (company "Autor: Hanes Nahuel Sciarrone")
         (rev v3)
-        (date 2020-10-17)
+        (date 2020-11-13)
         (source ModuleNFC.sch)
-        (comment (number 1) (value "Licencia CERN Open Hardware License Version 2 Permissive"))
+        (comment (number 1) (value "Licencia: CERN Open Hardware License Version 2 Permissive"))
         (comment (number 2) (value "Revisor: Fede Pacher"))
         (comment (number 3) (value "Profesor: Diego Brengi"))
         (comment (number 4) (value "")))))
@@ -355,7 +355,7 @@
       (datasheet ~)
       (libsource (lib Graphic) (part Logo_Open_Hardware_Small) (description "Open Hardware logo, small"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5FB56619)))
+      (tstamp 5FB331B0)))
   (libparts
     (libpart (lib 2N7002DM) (part 2N7002DM)
       (docs https://pdf1.alldatasheet.com/datasheet-pdf/view/508035/LRC/L2N7002DMT1G.html)

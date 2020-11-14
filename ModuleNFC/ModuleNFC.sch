@@ -1350,4 +1350,15 @@ F 3 "~" H 10625 3025 50  0001 C CNN
 	1    10625 3025
 	1    0    0    -1  
 $EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO2
+U 1 1 5FB331B0
+P 9425 3050
+F 0 "LOGO2" H 9425 3325 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 9425 2825 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_5mm_Copper" H 9425 3050 50  0001 C CNN
+F 3 "~" H 9425 3050 50  0001 C CNN
+	1    9425 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
